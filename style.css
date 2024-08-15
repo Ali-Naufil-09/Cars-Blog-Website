@@ -1,0 +1,16 @@
+.background-gradient{
+    font-size: 24px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .banner-holder, .main-page-header{
+        background-image: url(pexels-therato-3855632.jpg);
+        background-size: cover;
+        background-position: end;
+    }
+
+    .custom-nav{
+        backdrop-filter: blur(8px); /*adding blur effect to background on scrolling*/
+    }
